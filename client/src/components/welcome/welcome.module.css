@@ -1,0 +1,50 @@
+.wrapper {
+    max-width: 100%;
+    background: #E0E0E0;
+}
+
+.container {
+    max-width: 90rem;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    grid-template-rows: 0 1fr;
+}
+
+
+.block_avatar {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ellipse_avatar .ellipse {
+    left: 5.3rem;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 100%;
+    background: #1D2CF3;
+}
+
+
+.text_name {
+    margin: 20px;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    color: #1D2CF3;
+}
+
+.info_avatar a{
+    padding: 0.8rem 2.4rem;
+    background: #1D2CF3;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.info_avatar a span {
+    font-size: 1.25rem;
+}

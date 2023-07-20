@@ -1,0 +1,76 @@
+.head {
+    max-width: 100%;
+    background: #fff;
+    padding: 1.75rem 6.25rem;
+}
+
+.nav {
+    max-width: 90rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_content {
+    gap: 30px;
+}
+
+.link_nav {
+    font-size: 1.2rem;
+    letter-spacing: 0.06em;
+    padding-bottom: 0.19rem;
+    border-bottom: 1px solid #fff;
+    transition: border-bottom 0.5s;
+    color: #1d2cf2;
+}
+
+.link_nav a {
+    color: #1d2cf2;
+}
+
+.link_nav:hover {
+    border-bottom: 1px solid #263057;
+}
+
+.btn_nav1, .btn_nav2, .btn_nav3 {
+    padding: 0.6rem 1.5rem;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 0.09em;
+}
+
+.btn_nav2 {
+    padding: 0.6rem 2.6rem;
+    background: #000000;
+    border: 1px solid #000000;
+}
+
+.btn_nav1:hover {
+    background: #1d2cf2;
+    border: 1px solid #1d2cf2;
+    color: #ffffff;
+}
+
+.btn_nav2:hover {
+    background: #1d2cf2;
+    border: 1px solid #1d2cf2;
+    color: #ffffff;
+}
+
+.btn_nav3:hover {
+    background: #1d2cf2;
+    border: 1px solid #1d2cf2;
+    color: #ffffff;
+}

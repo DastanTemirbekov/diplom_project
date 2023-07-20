@@ -1,0 +1,82 @@
+.container_content {
+    max-width: 1220px;
+    margin: 0 auto;
+    flex-grow: 1;
+    display: flex;
+align-items: center;
+    gap: 20px;
+}
+
+.container_form_internships {
+    margin-top: 3rem;
+    padding: 3rem 5.8rem;
+    background: blue;
+    border-radius: 10px;
+}
+
+.head_form {
+    max-width: 27rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+}
+
+.one_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.one_block input{
+    margin-bottom: 1rem;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.77);
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+}
+
+.label {
+    color: white;
+}
+
+.one_block textarea{
+    margin-bottom: 2rem;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.77);
+    border-radius: 30px;
+    padding: 1rem 1rem;
+}
+
+.one_block input::placeholder {
+    color: rgba(255, 255, 255, 0.77);
+}
+
+.btn_send {
+    background: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+}
+
+.text_conditions {
+    margin-top: 3rem;
+    color: #fff;
+}
+
+.two_block label{
+    color: #fff;
+}
+
+.two_block input{
+    padding-top: 1rem;
+    color: #fff;
+}
+
+.btn_nav1 {
+    padding: 30px;
+    font-size: 20px;
+}
